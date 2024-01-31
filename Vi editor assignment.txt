@@ -3,3 +3,13 @@ SECOND LINE
 THIRD LINE
 
 
+Command that I used  :
+
+
+ 1.  :normal ggVG~ => to toggle the case of all chars within the file
+ 
+ 2.    :%s/dEVOPS/Pranjal/g => to replace the word dEVOPS with Pranjal
+
+
+both the commands are being used in vi editor in command mode.
+
