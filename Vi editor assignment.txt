@@ -1,0 +1,15 @@
+Pranjal IS IMPORTANT FOR DEPLOYING THE APPLICATION Pranjal PRACTICES FOCUS ON AUTOMATION AND COLLABORATION, ENABLING FASTER AND MORE FREQUENT SOFTWARE RELEASES. tHIS SPEED IS CRUCIAL IN TODAY'S COMPETITIVE BUSINESS ENVIRONMENT TO RESPOND QUICKLY TO MARKET DEMANDS AND STAY AHEAD OF THE COMPETITION
+SECOND LINE
+THIRD LINE
+
+
+Command that I used  :
+
+
+ 1.  :normal ggVG~ => to toggle the case of all chars within the file
+ 
+ 2.    :%s/dEVOPS/Pranjal/g => to replace the word dEVOPS with Pranjal
+
+
+both the commands are being used in vi editor in command mode.
+
