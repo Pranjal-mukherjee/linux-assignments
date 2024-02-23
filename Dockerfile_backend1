@@ -1,0 +1,11 @@
+FROM maven:latest as MAVEN_JAR
+WORKDIR /code
+COPY . .
+RUN mvn clean package
+
+
+FROM openjdk:17-jdk-alpine
+WORKDIR /opt
+COPY --from=MAVEN_JAR /code/target/*.war /opt/web.war
+EXPOSE 8080
+ENTRYPOINT ["java","-jar","/opt/web.war"]
