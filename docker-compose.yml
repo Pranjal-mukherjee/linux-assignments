@@ -1,0 +1,10 @@
+version: '3'
+services:
+  first_project:
+    image: spring_hello_world
+    ports:
+      - 8089:8080
+  second_project:
+    image: image2
+    ports:
+      - 9001:9000
